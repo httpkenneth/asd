@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --container: 144rem;
+    --m-auto: 0 auto;
+    --text-primary: #212b36;
+    --text-secondary: #637381;
+    --star: #ffa645;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: var(--container);
+    margin: var(--m-auto);
+    padding: 0 20rem;
+}
+
+#products {
+    padding: 2rem 0;
+}
+
+.btn-controls {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+.btn ion-icon {
+    font-size: 3rem;
+}
+
+.btn.active ion-icon {
+    color: var(--star);
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.list-view {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.product img {
+    width: 100%;
+}
+
+.list-view .product {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.list-view .product img {
+    width: 10rem;
+    object-fit: cover;
+}
+
+.product-details {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-heading {
+    font-size: 2rem;
+    padding: 0 0 0.5rem 0;
+    color: var(--text-primary);
+}
+
+.product-price {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.review {
+    display: inline-flex;
+    gap: 1rem;
+    color: #708085;
+    font-size: 14px;
+}
+
+.product-details ion-icon {
+    color: var(--star);
+}
+
+@media (max-width: 768px) {
+    .grid-view {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+    .list-view {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

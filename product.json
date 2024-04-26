@@ -1,0 +1,98 @@
+{
+    "products": [{
+        "id": 1,
+        "name":"Collection Automation for Treasury",
+        "tags": "Treasury Tool",
+        "image": "cat.svg",
+        "description": "CAT is a user-friendly web app automating Treasury collection management. Streamline complex tasks, including client collections, billing, and user accounts, ensuring efficiency and security.",
+        "distinct": "Sample."    
+    },
+    {
+        "id": 2,
+        "name":"FC Bucketlist",
+        "tags": "Sales Tool",
+        "image": "bucketlist.svg",
+        "description": "The FC Bucketlist is a specialized online web application tailored for Marketing Representatives. It's primary purpose is to efficiently log client visits and track loan availing decisions",
+        "distinct": "Sample."
+    },
+    {
+        "id": 3,
+        "name":"PAR Reason",
+        "tags": "Collection Tool",
+        "image": "collectiontool.svg",
+        "description": "The Collection Tool is a specialized web application tailored for efficient oversight and management of collection processes of PAR accounts. It can also generate PAR Reason Reports helpful in PAR Provisioning.",
+        "distinct": "Sample."
+    },
+    {
+        "id": 4,
+        "name":"Pouch Receiving System",
+        "tags": "Mailroom Automation",
+        "image": "pouch.svg",
+        "description": "The Pouch Receiving System is a comprehensive web application enabling centralized management of item deliveries across nationwide branches and the Head Office, ensuring efficient operations.",
+        "distinct": "Sample."
+    },
+    {
+        "id": 5,
+        "name":"PCNI CMS",
+        "tags": "Sales Tool",
+        "image": "cms.svg",
+        "description": "The CMS (Contact Management System) is a specialized online web application tailored for caravan/sales personnel. It's primary purpose is to efficiently log client visits and track loan availing decisions.",
+        "distinct": "Sample."
+    },
+    {
+        "id": 6,
+        "name":"ATM Inventory System",
+        "tags": "ATM Inventory System",
+        "image": "atmis.svg",
+        "description": "The ATM Inventory System is a dedicated web application designed for the efficient management and monitoring of ATM transmittals, ensuring streamlined operations and oversight.",
+        "distinct": "Sample."
+    },
+    {
+        "id": 7,
+        "name":"Coda.io",
+        "tags": "Project Management",
+        "image": "coda.png",
+        "description": "Coda.io revolutionizes project management with its versatile, collaborative platform. It enables teams to streamline tasks and enhance productivity efficiently.",
+        "distinct": "Sample."
+    },
+    {
+        "id": 8,
+        "name":"Hostwiki",
+        "tags": "Documentation",
+        "image": "wikijs.png",
+        "description": "Hostwiki powered by Wiki.js simplifies documentation processes. It's a versatile, collaborative platform for creating and managing comprehensive, user-friendly documentation.",
+        "distinct": "Sample."
+    },
+    {
+      "id": 9,
+      "name":"SUKI Nextbank",
+      "tags": "Loan Management System",
+      "image": "nextbank.png",
+      "description": "Nextbank offers innovative banking solutions, enhancing financial services with user-friendly interfaces and cutting-edge technology for seamless and secure transactions.",
+      "distinct": "Sample."
+    },
+    {
+      "id": 10,
+      "name":"FC Instafin",
+      "tags": "Loan Management System",
+      "image": "instafin.png",
+      "description": "Instafin provides a comprehensive, user-friendly solution for financial services. It streamlines operations, enabling efficient management and delivery of financial products.",
+      "distinct": "Sample."
+    },
+    {
+      "id": 11,
+      "name":"ECOUNT ERP",
+      "tags": "Inventory Management System",
+      "image": "ecount.png",
+      "description": "Ecount is a cloud-based software simplifying business operations. With integrated modules for inventory, accounting, HR, and more, it empowers users to efficiently manage diverse business functions.",
+      "distinct": "Sample."
+    },
+    {
+      "id": 12,
+      "name":"Synology",
+      "tags": "Cloud Storage",
+      "image": "synology.png",
+      "description": "DSM by Synology offers a robust, user-friendly platform for streamlined NAS management. Empowering users with efficient, secure, and versatile storage solutions.",
+      "distinct": "Sample."
+    }]
+}
